@@ -1,0 +1,40 @@
+
+<link rel="stylesheet" href="css/home.css">
+<link rel="stylesheet" href="css/navbar_justified.css">
+<header>
+    <div class="imghead">
+        <h1>{{title}}</h1>
+    </div>
+</header>
+    <hr class="nav-rule">
+<!-- 3 most recent posts -->
+<main class="container">
+    <div class="row main-row">
+        <div class="col-sm-10">
+            <div class="filter-bar">
+                <h3>I want to put some kind of search bar and filter options for the blog posts here</h3>
+            </div>
+            <div class="row" *ngIf='posts && posts.length'>
+                <div class="col-sm-12" *ngFor='let post of posts'>
+                    <h2 class="text-capitalize">{{ post.title }}</h2>
+                    <p class="lead">{{ post.subtitle }}</p>
+                    <p>{{ post.author.first_name }}</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <section>
+                <article>
+                    <a href="https://github.com/carterfawson"><img src="app/blog-home/images/GitHub-Mark-120px-plus.png"></a>
+                </article>
+                <hr>
+                <article>
+                    <h3>Twitter Feed</h3>
+                        <h4>Here is where I am going to embed a twitter feed of all my most recent tweets. Could I potentially put the commit map on my github blurb too? That way I can show how much I am contributing to my code right there on my home page?</h4>
+                 </article>
+            </section>
+        </div>
+    </div>
+</main>
+<hr>
