@@ -14,12 +14,12 @@ var BlogEditModalComponent = (function () {
     }
     BlogEditModalComponent = __decorate([
         core_1.Component({
-            selector: 'blog-editModal',
-            templateUrl: 'app/blog-editModal/blog-editModal.component.html'
+            selector: 'blog-editmodal',
+            templateUrl: 'app/blog-editmodal/blog-editmodal.component.html'
         }), 
         __metadata('design:paramtypes', [])
     ], BlogEditModalComponent);
     return BlogEditModalComponent;
 }());
 exports.BlogEditModalComponent = BlogEditModalComponent;
-//# sourceMappingURL=blog-editModal.component.js.map
+//# sourceMappingURL=blog-editmodal.component.js.map

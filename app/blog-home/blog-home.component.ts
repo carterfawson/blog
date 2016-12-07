@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 
 export class BlogHomeComponent {
     title: string = "Carter's Blog";
+    admin: boolean = true;
     posts: any[] = [
         {
             "postId": 1,

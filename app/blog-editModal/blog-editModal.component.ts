@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'blog-editModal',
-    templateUrl: 'app/blog-editModal/blog-editModal.component.html'
+    selector: 'blog-editmodal',
+    templateUrl: 'app/blog-editmodal/blog-editmodal.component.html'
 })
 
 export class BlogEditModalComponent {

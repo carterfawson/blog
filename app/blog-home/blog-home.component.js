@@ -12,6 +12,7 @@ var core_1 = require('@angular/core');
 var BlogHomeComponent = (function () {
     function BlogHomeComponent() {
         this.title = "Carter's Blog";
+        this.admin = true;
         this.posts = [
             {
                 "postId": 1,

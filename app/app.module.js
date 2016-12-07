@@ -12,6 +12,7 @@ var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var app_component_1 = require('./app.component');
 var blog_home_component_1 = require('./blog-home/blog-home.component');
+var blog_editmodal_component_1 = require('./blog-editmodal/blog-editmodal.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -20,7 +21,8 @@ var AppModule = (function () {
             imports: [platform_browser_1.BrowserModule],
             declarations: [
                 app_component_1.AppComponent,
-                blog_home_component_1.BlogHomeComponent],
+                blog_home_component_1.BlogHomeComponent,
+                blog_editmodal_component_1.BlogEditModalComponent],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])
